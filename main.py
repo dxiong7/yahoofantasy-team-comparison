@@ -81,7 +81,7 @@ def select_league(ctx: Context, sport='nba'):
     try:
         # Get current year
         current_year = 2025
-        print("Defaulting to " + current_year)
+        print(f"Defaulting to {current_year}")
         
         # Try to get leagues for current year, fallback to previous year if needed
         leagues = []
